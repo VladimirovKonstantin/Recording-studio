@@ -77,6 +77,24 @@
     Author.create(first_name: "Джеймс", last_name: "Хетфилд")
     Author.create(first_name: "Ларс", last_name: "Ульрих")
     Author.create(first_name: "Мастейн", last_name: "Дэйв")
+    Author.create(first_name: "Майне", last_name: "Клаус")
+    Author.create(first_name: "Шенкер", last_name: "Рудольф")
+    Author.create(first_name: "Линдеманн", last_name: "Тилль")
+    Author.create(first_name: "Самнер", last_name: "Бернард")
+    Author.create(first_name: "Путаансуу", last_name: "Томи")
+    Author.create(first_name: "Клэптон", last_name: "Эрик")
+    Author.create(first_name: "Кэш", last_name: "Джонни")
+    Author.create(first_name: "Дилан", last_name: "Боб")
+    Author.create(first_name: "Чиконне", last_name: "Мадонна Луиза Вероника")
+    Author.create(first_name: "Свифт", last_name: "Тейлор Элисон")
+    Author.create(first_name: "Джексон", last_name: "Майкл")
+    Author.create(first_name: "Шакур", last_name: "Тупак Амару")
+    Author.create(first_name: "Маршалл", last_name: "Брюс Мэтерс Третий")
+    Author.create(first_name: "Макилрот", last_name: "Тимоти")
+    
+    
+    
+    
 
     Track.create(name: "Blackout",                  duration: "00:03:48", album_id: 1, genre_id: 1, author_id: 1, artist_id: 1)
     Track.create(name: "Can't Live Without You",    duration: "00:03:46", album_id: 1, genre_id: 1, author_id: 1, artist_id: 1)
@@ -107,27 +125,23 @@
     Track.create(name: "Mann gegen Mann",           duration: "00:03:53", album_id: 8, genre_id: 1, author_id: 1, artist_id: 4)
     Track.create(name: "Rosenrot",                  duration: "00:04:42", album_id: 8, genre_id: 1, author_id: 1, artist_id: 4)
     Track.create(name: "Spring",                    duration: "00:02:32", album_id: 8, genre_id: 1, author_id: 1, artist_id: 4)
-
     Track.create(name: "Hard Rock Hallelujah",      duration: "00:04:07", album_id: 9, genre_id: 1, author_id: 1, artist_id: 9)
     Track.create(name: "Who’s Your Daddy?",         duration: "00:03:38", album_id: 9, genre_id: 1, author_id: 1, artist_id: 9)
     Track.create(name: "It Snows in Hell",          duration: "00:03:37", album_id: 9, genre_id: 1, author_id: 1, artist_id: 9)
     Track.create(name: "Supermonstars",             duration: "00:04:04", album_id: 9, genre_id: 1, author_id: 1, artist_id: 9)
-   
     Track.create(name: "Scare Force One",           duration: "00:04:58", album_id: 10, genre_id: 1, author_id: 1, artist_id: 9)
     Track.create(name: "She's a Demon",             duration: "00:05:37", album_id: 10, genre_id: 1, author_id: 1, artist_id: 9)
     Track.create(name: "Monster is My Name",        duration: "00:03:35", album_id: 10, genre_id: 1, author_id: 1, artist_id: 9)
     Track.create(name: "House of Ghosts",           duration: "00:04:12", album_id: 10, genre_id: 1, author_id: 1, artist_id: 9)
-
     Track.create(name: "Endgame",                   duration: "00:03:24", album_id: 11, genre_id: 1, author_id: 1, artist_id: 21)
     Track.create(name: "Make It Stop",              duration: "00:03:57", album_id: 11, genre_id: 1, author_id: 1, artist_id: 21)
     Track.create(name: "Survivor Guilt",            duration: "00:04:00", album_id: 11, genre_id: 1, author_id: 1, artist_id: 21)
     Track.create(name: "This Is Letting Go",        duration: "00:03:41", album_id: 11, genre_id: 1, author_id: 1, artist_id: 21)   
-   
     Track.create(name: "The Great Die-Off",         duration: "00:03:39", album_id: 12, genre_id: 1, author_id: 1, artist_id: 21)
     Track.create(name: "The Black Market",          duration: "00:04:15", album_id: 12, genre_id: 1, author_id: 1, artist_id: 21)
     Track.create(name: "Methadone",                 duration: "00:03:38", album_id: 12, genre_id: 1, author_id: 1, artist_id: 21)
     Track.create(name: "Tragedy + Time",            duration: "00:04:17", album_id: 12, genre_id: 1, author_id: 1, artist_id: 21)
-   
+  
     Carrier.create(name: "2 albums of metallica")
     Carrier.create(name: "collection")
     Carrier.create(name: "collection2")
