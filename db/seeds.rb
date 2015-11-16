@@ -95,7 +95,6 @@
     
     
     
-
     Track.create(name: "Blackout",                  duration: "00:03:48", album_id: 1, genre_id: 1, author_id: 1, artist_id: 1)
     Track.create(name: "Can't Live Without You",    duration: "00:03:46", album_id: 1, genre_id: 1, author_id: 1, artist_id: 1)
     Track.create(name: "No One Like You",           duration: "00:03:57", album_id: 1, genre_id: 1, author_id: 1, artist_id: 1)
